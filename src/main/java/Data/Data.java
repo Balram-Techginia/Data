@@ -32,7 +32,7 @@ public class Data {
 
 	public static MongoClient getConnection() {
 		try {
-			return new MongoClient(new MongoClientURI("mongodb://admin:myadminpassword@35.154.199.25:27017"));
+			return new MongoClient(new MongoClientURI("mongodb://admin:myadminpassword@enter you DB IP"));
 		} catch (Exception e) {
 			e.printStackTrace();
 			return null;
